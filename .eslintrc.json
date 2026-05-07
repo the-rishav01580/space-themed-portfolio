@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "no-console": ["warn", { "allow": ["warn", "error"] }],
+    "react/self-closing-comp": "warn",
+    "prefer-const": "error",
+    "no-var": "error",
+    "@next/next/no-img-element": "error"
+  }
+}

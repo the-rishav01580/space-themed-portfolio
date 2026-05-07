@@ -1,0 +1,17 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
+  "headers": [
+    {
+      "source": "/(.*\\.(woff2?|eot|ttf|otf|png|jpg|jpeg|gif|webp|svg|ico|mp4|webm|glb|gltf))",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
+}
