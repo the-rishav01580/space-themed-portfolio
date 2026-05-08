@@ -1,14 +1,16 @@
-import { Inter, Dancing_Script } from "next/font/google";
+/**
+ * Font utility classes.
+ *
+ * Keep Google Fonts out of `next/font/google` so Vercel does not need to
+ * download fonts during `next build`. The matching stylesheet is loaded in
+ * `app/layout.tsx`, and CSS fallbacks live in `app/globals.css`.
+ */
+export const inter = {
+  className: "font-sans",
+  variable: "font-sans",
+} as const;
 
-export const inter = Inter({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-inter",
-});
-
-export const dancingScript = Dancing_Script({
-  subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  display: "swap",
-  variable: "--font-dancing-script",
-});
+export const dancingScript = {
+  className: "font-cursive",
+  variable: "font-cursive",
+} as const;

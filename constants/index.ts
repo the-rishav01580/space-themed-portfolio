@@ -68,7 +68,7 @@ export const PROJECTS = [
     description:
       "A full-stack web application built with React and deployed on Vercel. Implements real-time meal management, student registration, and billing workflows. Features responsive UI, component-based architecture, and optimized API interactions.",
     image: "/projects/project-1.png",
-    link: "https://trg-delta.vercel.app/",
+    link: "https://mbm-nine-zeta.vercel.app/",
   },
   {
     title: "TravelBuddy",
