@@ -17,7 +17,7 @@ import {
 
 // ⚠️  Get your FREE access key at https://web3forms.com
 //     Paste it here to enable real message delivery.
-const WEB3FORMS_KEY = "YOUR_ACCESS_KEY_HERE";
+const WEB3FORMS_KEY = "06b7d84a-5b53-4419-b7d5-33d014d1100b";
 
 export default function Contact() {
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">(

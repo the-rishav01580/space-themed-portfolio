@@ -82,7 +82,7 @@ export const PROJECTS = [
     description:
       "An immersive 3D space-themed portfolio built with Next.js 14, Three.js, and Framer Motion. Features a WebGL star background, interactive floating ID card, and smooth scroll animations.",
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://space-themed-portfolio-bice.vercel.app/",
   },
 ] as const;
 
