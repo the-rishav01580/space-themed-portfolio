@@ -14,20 +14,20 @@ export const Navbar = () => {
     <header className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001427] backdrop-blur-md z-50 px-10">
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
 
-        {/* LEFT – NAV LINKS */}
+        {/* LEFT — NAV LINKS */}
         <nav
-          className="hidden md:flex w-[250px] h-full flex-row items-center"
-          aria-label="Primary navigation"
+          className="hidden md:flex w-[300px] h-full flex-row items-center"
+          aria-label="Primary"
         >
-          <div className="flex items-center justify-between w-full px-[20px] py-[10px] rounded-full text-gray-200">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.title}
-                href={link.link}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition-colors duration-200"
+          <div className="flex items-center justify-between w-full px-5 py-2 rounded-full text-gray-200 border border-white/10 bg-white/[0.02]">
+            {NAV_LINKS.map((l) => (
+              <a
+                key={l.title}
+                href={l.link}
+                className="cursor-pointer text-sm hover:text-[rgb(112,66,248)] transition-colors duration-200"
               >
-                {link.title}
-              </Link>
+                {l.title}
+              </a>
             ))}
           </div>
         </nav>

@@ -86,34 +86,6 @@ export const PROJECTS = [
   },
 ] as const;
 
-// ─── Footer ──────────────────────────────────────────────────────────────────
-
-export const FOOTER_DATA = [
-  {
-    title: "Community",
-    data: [
-      { name: "YouTube",  icon: FaYoutube,    link: "https://youtube.com" },
-      { name: "GitHub",   icon: RxGithubLogo, link: "https://github.com/the-rishav01580" },
-      { name: "Discord",  icon: RxDiscordLogo,link: "https://discord.com" },
-    ],
-  },
-  {
-    title: "Social Media",
-    data: [
-      { name: "Instagram", icon: RxInstagramLogo, link: "https://instagram.com/the_rishav01580" },
-      { name: "Twitter",   icon: RxTwitterLogo,   link: "https://twitter.com" },
-      { name: "LinkedIn",  icon: RxLinkedinLogo,  link: "https://www.linkedin.com/in/rishav-kumar-garg-532828235/" },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      { name: "Become Sponsor",  icon: null, link: "https://youtube.com" },
-      { name: "Learning about me", icon: null, link: "https://example.com" },
-      { name: "Contact Me",      icon: null, link: "mailto:rishavgarg01580@gmail.com" },
-    ],
-  },
-] as const;
 
 // ─── Navigation ──────────────────────────────────────────────────────────────
 
@@ -121,6 +93,7 @@ export const NAV_LINKS = [
   { title: "About me", link: "#about-me" },
   { title: "Skills",   link: "#skills" },
   { title: "Projects", link: "#projects" },
+  { title: "Contact Me", link: "#contact" }
 ] as const;
 
 // ─── Socials (navbar) ─────────────────────────────────────────────────────────
