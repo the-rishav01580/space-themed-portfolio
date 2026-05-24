@@ -124,3 +124,26 @@
     scroll-behavior: auto !important;
   }
 }
+
+
+@keyframes rocketFloat {
+  0%,
+  100% {
+    transform: translateY(0px) rotate(-45deg);
+  }
+
+  50% {
+    transform: translateY(-14px) rotate(-45deg);
+  }
+}
+
+@keyframes floatPlanet {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-12px);
+  }
+}

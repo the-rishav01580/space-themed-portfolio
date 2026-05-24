@@ -1,116 +1,113 @@
-# Code of Conduct - Space Portfolio
+# Code of Conduct
 
-## Our Pledge
+## 🌌 Our Commitment
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to make participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+We are committed to fostering a welcoming, respectful, and inclusive environment for everyone contributing to or interacting with this project.
 
-## Our Standards
+This project encourages open collaboration, constructive feedback, and professional behavior to create a positive experience for all contributors regardless of:
 
-Examples of behavior that contributes to a positive environment for our
-community include:
+- Background or identity
+- Experience level
+- Nationality or ethnicity
+- Gender identity or expression
+- Religion or beliefs
+- Disability, age, or appearance
+- Technical expertise or education
 
-* Demonstrating empathy and kindness toward other people
-* Being respectful of differing opinions, viewpoints, and experiences
-* Giving and gracefully accepting constructive feedback
-* Accepting responsibility and apologizing to those affected by our mistakes,
-and learning from the experience
-* Focusing on what is best not just for us as individuals, but for the
-overall community
+Everyone deserves to participate in a safe, respectful, and harassment-free environment.
 
-Examples of unacceptable behavior include:
+---
 
-* The use of sexualized language or imagery, and sexual attention or
-advances
-* Trolling, insulting or derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or email
-address, without their explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-professional setting
+## 🚀 Expected Behavior
 
-## Our Responsibilities
+We encourage contributors and community members to:
 
-Project maintainers are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate,
-threatening, offensive, or harmful.
+- Be respectful and considerate in discussions
+- Give constructive and helpful feedback
+- Respect different opinions and technical approaches
+- Collaborate professionally and positively
+- Focus on improving the project and helping others learn
+- Accept responsibility for mistakes and learn from feedback
 
-Project maintainers have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will
-communicate reasons for moderation decisions when appropriate.
+---
 
-## Scope
+## ❌ Unacceptable Behavior
 
-This Code of Conduct applies within all community spaces, and also applies when
-an individual is officially representing the community in public spaces.
-Examples of representing our community include using an official e-mail address,
-posting via an official social media account, or acting as an appointed
-representative at an online or offline event.
+The following behaviors are not tolerated:
 
-## Enforcement
+- Harassment, discrimination, or hate speech
+- Trolling, abusive comments, or personal attacks
+- Offensive or inappropriate language
+- Sharing private information without permission
+- Disruptive, spammy, or intentionally harmful behavior
+- Toxic interactions in discussions, pull requests, or issues
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported to the community leaders responsible for enforcement at .
-All complaints will be reviewed and investigated promptly and fairly.
+Any conduct deemed harmful to a respectful community environment may result in moderation action.
 
-All community leaders are obligated to respect the privacy and security of the
-reporter of any incident.
+---
 
-## Enforcement Guidelines
+## 🛠 Maintainer Responsibilities
 
-Community leaders will follow these Community Impact Guidelines in determining
-the consequences for any action they deem in violation of this Code of Conduct:
+Project maintainers are responsible for:
 
-### 1. Correction
+- Encouraging respectful collaboration
+- Reviewing and moderating community behavior fairly
+- Taking appropriate action when rules are violated
+- Maintaining a professional and inclusive environment
 
-**Community Impact**: Use of inappropriate language or other behavior deemed
-unprofessional or unwelcome in the community.
+Maintainers reserve the right to remove comments, reject contributions, or restrict participation if behavior violates this Code of Conduct.
 
-**Consequence**: A private, written warning from community leaders, providing
-clarity around the nature of the violation and an explanation of why the
-behavior was inappropriate. A public apology may be requested.
+---
 
-### 2. Warning
+## 🌍 Scope
 
-**Community Impact**: A violation through a single incident or series
-of actions.
+This Code of Conduct applies to all project spaces, including:
 
-**Consequence**: A warning with consequences for continued behavior. No
-interaction with the people involved, including unsolicited interaction with
-those enforcing the Code of Conduct, for a specified period of time. This
-includes avoiding interactions in community spaces as well as external channels
-like social media. Violating these terms may lead to a temporary or
-permanent ban.
+- GitHub Issues
+- Pull Requests
+- Discussions
+- Project-related communication channels
+- Social interactions representing this project
 
-### 3. Temporary Ban
+---
 
-**Community Impact**: A serious violation of community standards, including
-sustained inappropriate behavior.
+## ⚖️ Enforcement
 
-**Consequence**: A temporary ban from any sort of interaction or public
-communication with the community for a specified period of time. No public or
-private interaction with the people involved, including unsolicited interaction
-with those enforcing the Code of Conduct, is allowed during this period.
-Violating these terms may lead to a permanent ban.
+If you experience or witness unacceptable behavior, please report it to the project maintainer.
 
-### 4. Permanent Ban
+### Contact
 
-**Community Impact**: Demonstrating a pattern of violation of community
-standards, including sustained inappropriate behavior, harassment of an
-individual, or aggression toward or disparagement of classes of individuals.
+**Maintainer:** Rishav Kumar Garg  
+**GitHub:** https://github.com/the-rishav01580
 
-**Consequence**: A permanent ban from any sort of public interaction within
-the community.
+All reports will be reviewed respectfully and handled fairly.
 
-## Attribution
+---
 
-This Code of Conduct is adapted from the [Contributor Covenant](https://contributor-covenant.org/), version
-[1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct/code_of_conduct.md) and
-[2.0](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md),
-and was generated by [contributing-gen](https://github.com/bttger/contributing-gen).
+## 🚫 Enforcement Actions
+
+Depending on severity, maintainers may take actions including:
+
+1. Friendly warning and guidance  
+2. Temporary restriction from discussions or contributions  
+3. Removal of inappropriate content  
+4. Permanent restriction for repeated or severe violations
+
+---
+
+## 🤝 Community Philosophy
+
+This project values:
+
+> Respect over ego  
+> Collaboration over conflict  
+> Learning over gatekeeping  
+> Innovation through kindness
+
+Let’s build something meaningful together 🚀
+
+---
+
+## 📄 Attribution
+
+This Code of Conduct is inspired by the Contributor Covenant and adapted for this project.

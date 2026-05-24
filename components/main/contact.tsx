@@ -144,26 +144,28 @@ export default function Contact() {
               href="/resume.pdf"
               target="_blank"
               rel="noreferrer"
-              className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-medium text-white hover:scale-[1.02] transition-transform"
+              className="flex-1 flex overflow-hidden items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-[#0A0515] text-white shadow hover:bg-[#110D1F] h-12 px-4 py-3 whitespace-pre group relative gap-2 rounded-xl transition-all duration-300 ease-out hover:ring-2 hover:ring-[#8B5CF6] hover:ring-offset-2 hover:ring-offset-[#030014]"
               style={{
-                background:
-                  "linear-gradient(135deg, #3B82F6, #8B5CF6)",
-                boxShadow:
-                  "0 0 24px rgba(139,92,246,0.3), 0 0 48px rgba(59,130,246,0.15)",
+                border: "1px solid rgba(255,255,255,0.08)",
               }}
             >
-              <LuEye size={16} /> View Resume
+              <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-40"></span>
+              <div className="flex items-center gap-2 relative z-10">
+                <LuEye size={16} /> View Resume
+              </div>
             </a>
             <a
               href="/resume.pdf"
               download
-              className="flex-1 inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl font-medium text-white hover:scale-[1.02] transition-all duration-300"
+              className="flex-1 flex overflow-hidden items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-[#0A0515] text-white shadow hover:bg-[#110D1F] h-12 px-4 py-3 whitespace-pre group relative gap-2 rounded-xl transition-all duration-300 ease-out hover:ring-2 hover:ring-[#8B5CF6] hover:ring-offset-2 hover:ring-offset-[#030014]"
               style={{
-                background: "rgba(255,255,255,0.04)",
                 border: "1px solid rgba(255,255,255,0.08)",
               }}
             >
-              <LuDownload size={16} /> Download
+              <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-40"></span>
+              <div className="flex items-center gap-2 relative z-10">
+                <LuDownload size={16} /> Download
+              </div>
             </a>
           </div>
         </motion.div>
@@ -229,30 +231,31 @@ export default function Contact() {
           <button
             type="submit"
             disabled={status === "sending" || status === "sent"}
-            className="inline-flex items-center gap-2 px-7 py-3 rounded-full font-medium text-white hover:scale-105 transition-all duration-300 disabled:opacity-60 disabled:hover:scale-100"
+            className="w-full sm:w-auto flex overflow-hidden items-center justify-center text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-[#0A0515] text-white shadow hover:bg-[#110D1F] h-12 px-7 py-3 whitespace-pre group relative gap-2 rounded-xl transition-all duration-300 ease-out hover:ring-2 hover:ring-[#8B5CF6] hover:ring-offset-2 hover:ring-offset-[#030014]"
             style={{
-              background: "linear-gradient(135deg, #3B82F6, #8B5CF6)",
-              boxShadow:
-                "0 0 24px rgba(139,92,246,0.3), 0 0 48px rgba(59,130,246,0.15)",
+              border: "1px solid rgba(255,255,255,0.08)",
             }}
           >
-            {status === "sending" ? (
-              <>
-                <LuLoaderCircle size={16} className="animate-spin" /> Sending...
-              </>
-            ) : status === "sent" ? (
-              <>
-                <LuCircleCheckBig size={16} /> Message sent!
-              </>
-            ) : status === "error" ? (
-              <>
-                <LuCircleAlert size={16} /> Failed — try again
-              </>
-            ) : (
-              <>
-                <LuSend size={16} /> Send message
-              </>
-            )}
+            <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-40"></span>
+            <div className="flex items-center gap-2 relative z-10">
+              {status === "sending" ? (
+                <>
+                  <LuLoaderCircle size={16} className="animate-spin" /> Sending...
+                </>
+              ) : status === "sent" ? (
+                <>
+                  <LuCircleCheckBig size={16} /> Message sent!
+                </>
+              ) : status === "error" ? (
+                <>
+                  <LuCircleAlert size={16} /> Failed — try again
+                </>
+              ) : (
+                <>
+                  <LuSend size={16} /> Send message
+                </>
+              )}
+            </div>
           </button>
         </motion.form>
       </div>

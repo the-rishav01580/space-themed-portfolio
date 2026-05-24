@@ -34,7 +34,7 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center gap-3 relative py-20 min-h-[60vh]"
+      className="flex flex-col items-center justify-center gap-3 relative py-10 min-h-[60vh]"
     >
       <SkillText />
 

@@ -1,117 +1,235 @@
-<!-- omit in toc -->
-# Contributing to Space Portfolio
+# 🤝 Contributing to Space Themed Portfolio
 
-First off, thanks for taking the time to contribute! ❤️
+First of all, thank you for your interest in contributing to **Space Themed Portfolio** 🚀
 
-All types of contributions are encouraged and valued. See the [Table of Contents](#table-of-contents) for different ways to help and details about how this project handles them. Please make sure to read the relevant section before making your contribution. It will make it a lot easier for us maintainers and smooth out the experience for all involved. The community looks forward to your contributions. 🎉
+Whether you're fixing bugs, improving UI, optimizing performance, enhancing animations, or improving documentation — every contribution is appreciated.
 
-> And if you like the project, but just don't have time to contribute, that's fine. There are other easy ways to support the project and show your appreciation, which we would also be very happy about:
-> - Star the project
-> - Tweet about it
-> - Refer this project in your project's readme
-> - Mention the project at local meetups and tell your friends/colleagues
+This project aims to provide a **modern, futuristic, and production-ready developer portfolio experience**, and contributions that improve quality, accessibility, maintainability, and performance are always welcome.
 
-<!-- omit in toc -->
-## Table of Contents
+---
 
-- [Code of Conduct](#code-of-conduct)
-- [I Have a Question](#i-have-a-question)
-- [I Want To Contribute](#i-want-to-contribute)
-- [Reporting Bugs](#reporting-bugs)
-- [Suggesting Enhancements](#suggesting-enhancements)
-- [Your First Code Contribution](#your-first-code-contribution)
-- [Improving The Documentation](#improving-the-documentation)
-- [Styleguides](#styleguides)
-- [Commit Messages](#commit-messages)
-- [Join The Project Team](#join-the-project-team)
+## 🌌 Code of Conduct
 
+Please read and follow our Code of Conduct before contributing.
 
-## Code of Conduct
+By participating in this project, you agree to maintain a respectful and professional environment.
 
-This project and everyone participating in it is governed by the
-[Space Portfolio Code of Conduct](https://github.com/sanidhyy/space-portfolioblob/master/CODE_OF_CONDUCT.md).
-By participating, you are expected to uphold this code. Please report unacceptable behavior
-to .
+📄 See: `CODE_OF_CONDUCT.md`
 
+---
 
-## I Have a Question
+## 🚀 Ways to Contribute
 
-> If you want to ask a question, we assume that you have read the available [Documentation](https://github.com/sanidhyy/space-portfolio/wiki).
+You can contribute in several ways:
 
-Before you ask a question, it is best to search for existing [Issues](https://github.com/sanidhyy/space-portfolio/issues) that might help you. In case you have found a suitable issue and still need clarification, you can write your question in this issue. It is also advisable to search the internet for answers first.
+### 🐛 Report Bugs
+Found an issue?
 
-If you then still feel the need to ask a question and need clarification, we recommend the following:
+Help improve the project by reporting bugs.
 
-- Open an [Issue](https://github.com/sanidhyy/space-portfolio/issues/new).
-- Provide as much context as you can about what you're running into.
-- Provide project and platform versions (nodejs, npm, etc), depending on what seems relevant.
+Please include:
 
-We will then take care of the issue as soon as possible.
+- Steps to reproduce
+- Expected behavior
+- Actual behavior
+- Screenshots (if applicable)
+- Browser/device information
+- Error logs (if available)
 
-## I Want To Contribute
+Open an issue here:
 
-> ### Legal Notice <!-- omit in toc -->
-> When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
+https://github.com/the-rishav01580/space-themed-portfolio/issues
 
-### Reporting Bugs
+---
 
-<!-- omit in toc -->
-#### Before Submitting a Bug Report
+### ✨ Suggest Improvements
 
-A good bug report shouldn't leave others needing to chase you up for more information. Therefore, we ask you to investigate carefully, collect information and describe the issue in detail in your report. Please complete the following steps in advance to help us fix any potential bug as fast as possible.
+Have ideas to improve:
 
-- Make sure that you are using the latest version.
-- Determine if your bug is really a bug and not an error on your side e.g. using incompatible environment components/versions (Make sure that you have read the [documentation](https://github.com/sanidhyy/space-portfolio/wiki). If you are looking for support, you might want to check [this section](#i-have-a-question)).
-- To see if other users have experienced (and potentially already solved) the same issue you are having, check if there is not already a bug report existing for your bug or error in the [bug tracker](https://github.com/sanidhyy/space-portfolioissues?q=label%3Abug).
-- Also make sure to search the internet (including Stack Overflow) to see if users outside of the GitHub community have discussed the issue.
-- Collect information about the bug:
-- Stack trace (Traceback)
-- OS, Platform and Version (Windows, Linux, macOS, x86, ARM)
-- Version of the interpreter, compiler, SDK, runtime environment, package manager, depending on what seems relevant.
-- Possibly your input and the output
-- Can you reliably reproduce the issue? And can you also reproduce it with older versions?
+- UI/UX
+- Animations
+- Performance
+- Accessibility
+- Responsiveness
+- Features
+- Developer Experience
 
-<!-- omit in toc -->
-#### How Do I Submit a Good Bug Report?
+Feel free to create an issue and explain:
 
-> You must never report security related issues, vulnerabilities or bugs including sensitive information to the issue tracker, or elsewhere in public. Instead sensitive bugs must be sent by email to .
+- What problem it solves
+- Why it improves the project
+- Suggested implementation (optional)
 
-We use GitHub issues to track bugs and errors. If you run into an issue with the project:
+---
 
-- Open an [Issue](https://github.com/sanidhyy/space-portfolio/issues/new). (Since we can't be sure at this point whether it is a bug or not, we ask you not to talk about a bug yet and not to label the issue.)
-- Explain the behavior you would expect and the actual behavior.
-- Please provide as much context as possible and describe the *reproduction steps* that someone else can follow to recreate the issue on their own. This usually includes your code. For good bug reports you should isolate the problem and create a reduced test case.
-- Provide the information you collected in the previous section.
+### 💻 Contribute Code
 
-Once it's filed:
+Want to contribute directly?
 
-- The project team will label the issue accordingly.
-- A team member will try to reproduce the issue with your provided steps. If there are no reproduction steps or no obvious way to reproduce the issue, the team will ask you for those steps and mark the issue as `needs-repro`. Bugs with the `needs-repro` tag will not be addressed until they are reproduced.
-- If the team is able to reproduce the issue, it will be marked `needs-fix`, as well as possibly other tags (such as `critical`), and the issue will be left to be [implemented by someone](#your-first-code-contribution).
+Follow these steps:
 
-### Suggesting Enhancements
+### 1. Fork the repository
 
-This section guides you through submitting an enhancement suggestion for Space Portfolio, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
+```bash
+git clone https://github.com/the-rishav01580/space-themed-portfolio.git
+```
 
-<!-- omit in toc -->
-#### Before Submitting an Enhancement
+### 2. Navigate to the project
 
-- Make sure that you are using the latest version.
-- Read the [documentation](https://github.com/sanidhyy/space-portfolio/wiki) carefully and find out if the functionality is already covered, maybe by an individual configuration.
-- Perform a [search](https://github.com/sanidhyy/space-portfolio/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
-- Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
+```bash
+cd space-themed-portfolio
+```
 
-<!-- omit in toc -->
-#### How Do I Submit a Good Enhancement Suggestion?
+### 3. Install dependencies
 
-Enhancement suggestions are tracked as [GitHub issues](https://github.com/sanidhyy/space-portfolio/issues).
+```bash
+npm install
+```
 
-- Use a **clear and descriptive title** for the issue to identify the suggestion.
-- Provide a **step-by-step description of the suggested enhancement** in as many details as possible.
-- **Describe the current behavior** and **explain which behavior you expected to see instead** and why. At this point you can also tell which alternatives do not work for you.
-- You may want to **include screenshots and animated GIFs** which help you demonstrate the steps or point out the part which the suggestion is related to. You can use [this tool](https://www.cockos.com/licecap/) to record GIFs on macOS and Windows, and [this tool](https://github.com/colinkeenan/silentcast) or [this tool](https://github.com/GNOME/byzanz) on Linux. <!-- this should only be included if the project has a GUI -->
-- **Explain why this enhancement would be useful** to most Space Portfolio users. You may also want to point out the other projects that solved it better and which could serve as inspiration.
+### 4. Start development server
 
-<!-- omit in toc -->
-## Attribution
-This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
+```bash
+npm run dev
+```
+
+---
+
+## 🌠 Development Guidelines
+
+Before submitting a contribution:
+
+### Keep the Space Theme Consistent
+
+Please maintain:
+
+- Futuristic design language
+- Space/cosmic visual identity
+- Premium UI feel
+- Smooth and minimal animations
+- Responsive design standards
+
+Avoid:
+
+- Overly flashy animations
+- Inconsistent styling
+- Performance-heavy implementations
+- Unnecessary complexity
+
+---
+
+## 📁 Project Structure
+
+```txt
+app/
+components/
+constants/
+public/
+styles/
+utils/
+```
+
+Try to keep components:
+
+- Reusable
+- Modular
+- Cleanly structured
+- Maintainable
+
+---
+
+## 🧹 Code Standards
+
+Please follow these practices:
+
+- Use clean and readable code
+- Write reusable React components
+- Keep Tailwind classes organized
+- Prefer TypeScript-safe patterns
+- Avoid unnecessary dependencies
+- Optimize performance when possible
+
+---
+
+## 🔀 Pull Request Process
+
+1. Fork the repository
+
+2. Create a new branch
+
+```bash
+git checkout -b feature/amazing-feature
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Add improved animation for hero section"
+```
+
+4. Push changes
+
+```bash
+git push origin feature/amazing-feature
+```
+
+5. Open a Pull Request
+
+Please include:
+
+- What changed
+- Why it changed
+- Screenshots (if UI updates)
+- Testing notes (optional)
+
+---
+
+## 🧪 Before Opening a PR
+
+Please ensure:
+
+- Code runs without errors
+- No console warnings
+- UI remains responsive
+- Space theme consistency is maintained
+- Existing functionality is not broken
+
+---
+
+## 💬 Questions or Support
+
+Need help?
+
+Open an issue:
+
+https://github.com/the-rishav01580/space-themed-portfolio/issues
+
+or connect with:
+
+### 👨‍💻 Maintainer
+
+**Rishav Kumar Garg**
+
+GitHub: https://github.com/the-rishav01580
+
+---
+
+## ⭐ Support the Project
+
+If you like this project:
+
+- 🌟 Star the repository
+- 🍴 Fork it
+- 📢 Share it with others
+- 💡 Contribute improvements
+
+Every contribution helps make the project better 🚀
+
+---
+
+<div align="center">
+
+### 🌌 Built with passion, creativity & code
+
+Made by **Rishav Kumar Garg**
+
+</div>

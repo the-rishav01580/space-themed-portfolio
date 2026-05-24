@@ -62,27 +62,53 @@ export const OTHER_SKILL = [
 
 // ─── Projects ────────────────────────────────────────────────────────────────
 
-export const PROJECTS = [
+export const FEATURED_PROJECT = {
+  title: "TravelBuddy",
+  subtitle: "Modern Travel Platform",
+  description:
+    "A complete travel platform with immersive UI, responsive layouts, and smooth booking experiences. Users can explore destinations, discover places and book packages seamlessly.",
+  highlights: [
+    "Responsive & Modern UI",
+    "Interactive Components",
+    "Smooth Animations & Transitions",
+    "Seamless Booking Flow",
+  ],
+  techStack: ["React", "Firebase", "Tailwind CSS", "REST API"],
+  image: "/projects/project-2.png",
+  githubLink: "https://github.com/the-rishav01580/TravelBuddy",
+  liveLink: "https://travelbuddy-sandy.vercel.app/",
+};
+
+export const OTHER_PROJECTS = [
   {
-    title: "E-Mess Portal",
+    title: "Business Management System",
+    subtitle: "Service & Booking Dashboard",
     description:
-      "A full-stack web application built with React and deployed on Vercel. Implements real-time meal management, student registration, and billing workflows. Features responsive UI, component-based architecture, and optimized API interactions.",
-    image: "/projects/project-1.png",
-    link: "https://mbm-nine-zeta.vercel.app/",
+      "Scalable dashboard for managing services, bookings and customers with clean admin workflow.",
+    techStack: ["React", "Firebase", "Tailwind CSS"],
+    image: "/projects/project-1.png", // fallback image
+    githubLink: "https://github.com/the-rishav01580/mbm",
+    liveLink: "https://mbm-nine-zeta.vercel.app/auth",
   },
   {
-    title: "TravelBuddy",
+    title: "SMS Spam Detection",
+    subtitle: "Smart Spam Detection",
     description:
-      "A full-stack travel companion matching web app built with React and deployed on Vercel. Enables users to find and connect with like-minded travel partners. Features responsive UI, dynamic filtering, and seamless user interactions.",
-    image: "/projects/project-2.png",
-    link: "https://travelbuddy-sandy.vercel.app/",
+      "Web app to detect spam messages with a clean interface and real-time prediction results.",
+    techStack: ["React", "Firebase"],
+    image: "/projects/project-1.png", // fallback image
+    githubLink: "https://github.com/the-rishav01580/NLP-powered-SMS-spam-detection",
+    liveLink: "#",
   },
   {
-    title: "Space Themed Portfolio",
+    title: "Personal Portfolio",
+    subtitle: "Creative Developer Portfolio",
     description:
-      "An immersive 3D space-themed portfolio built with Next.js 14, Three.js, and Framer Motion. Features a WebGL star background, interactive floating ID card, and smooth scroll animations.",
+      "Space-themed portfolio with modern animations, smooth interactions and immersive user experience.",
+    techStack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "React Icons"],
     image: "/projects/project-3.png",
-    link: "https://space-themed-portfolio-bice.vercel.app/",
+    githubLink: "https://github.com/the-rishav01580/space-themed-portfolio",
+    liveLink: "https://space-themed-portfolio-bice.vercel.app/",
   },
 ] as const;
 
@@ -112,6 +138,6 @@ export const SOCIALS = [
   {
     name: "LinkedIn",
     icon: RxLinkedinLogo,
-    link: "https://www.linkedin.com/in/rishav-kumar-garg-532828235/",
+    link: "https://www.linkedin.com/in/the-rishav01580/",
   },
 ] as const;
